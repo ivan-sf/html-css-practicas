@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.contenedor{
+    width: 100%;
+    background: white;
+    padding: 20vh;
+}
+.caja1{
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+    background: tomato;
+    margin: auto;
+}
+.caja1 img{
+    width: 100px;
+    float: left;
+}

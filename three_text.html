@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+        <link rel="stylesheet" href="css/styles_three.css">
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+        <div id="info">Description</div>
+
+		<script src="js/three.js"></script>
+
+        <script>
+            const texture = new THREE.TextureLoader().load( "texture/water.jpg" );
+            texture.wrapS = THREE.RepeatWrapping;
+            texture.wrapT = THREE.RepeatWrapping;
+            texture.repeat.set( 4, 4 );
+
+        </script>
+		
+	</body>
+</html>
